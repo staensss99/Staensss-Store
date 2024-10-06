@@ -1,0 +1,14 @@
+document.getElementById("ver-mas").addEventListener("click", function() {
+    const infoExtra = document.getElementById("informacion-extra");
+    if (infoExtra.style.display === "none") {
+        infoExtra.style.display = "block";
+    } else {
+        infoExtra.style.display = "none";
+    }
+});
+
+document.getElementById("form-contacto").addEventListener("submit", function(event) {
+    event.preventDefault();
+    alert("Gracias por enviar tu mensaje, nos pondremos en contacto pronto.");
+});
+
